@@ -7,11 +7,8 @@ main:
   - title: "CV"
     url: /cv/
   
-  - title: "Blog"
-    url: /blog/
-
   - title: "Publications"
-    url: /publications/       
-    
-  - title: "Teaching"
-    url: /teaching/ 
+    url: /publications/ 
+  
+  - title: "Blog"
+    url: /blog/      
