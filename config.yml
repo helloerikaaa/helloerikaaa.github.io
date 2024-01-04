@@ -1,0 +1,102 @@
+baseURL: "https://helloerikaaa.github.io/" 
+title: Erika Sánchez-Femat
+paginate: 20
+theme: PaperMod
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: Courses
+          url: /courses/
+          weight: 1
+        - name: Projects
+          url: /projects/
+          weight: 2
+        - name: Papers
+          url: /papers/
+          weight: 3
+        
+
+params:
+    description: "I am a Machine Learning Researcher and Associate Professor at Instituto Politécnico Nacional in Mexico. My research covers Computer Vision, Natural Language Processing and Computational Statistics."
+    author: Erika Sánchez-Femat
+    googleAnalyticsID: 
+    DateFormat: "January 2006"
+    defaultTheme: light
+    hideFooter: true
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowRssButtonInSectionTermList: false
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Erika Sánchez-Femat
+          subtitle: "I am a Machine Learning Researcher and Associate Professor at Instituto Politécnico Nacional in Mexico. My research covers Computer Vision, Natural Language Processing and Computational Statistics."
+          imageUrl: "/profile.JPG"
+          imageWidth: 160
+          imageHeight: 160
+          imageTitle: Erika Sánchez-Femat
+          buttons:
+            - name: Courses
+              url: /courses/
+            - name: Projects
+              url: /projects/
+            - name: Papers
+              url: /papers/
+            - name: Tags
+              url: /tags/
+            - name: Archive
+              url: /archive/
+
+    socialIcons:
+        - name: CV
+          url: /cv.pdf
+        - name: Email
+          url: mailto:epsanchezf@ipn.mx
+        - name: Location
+          url: /location/
+        - name: Office Hours
+          url: /officehours/
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?hl=es&user=aBmYpHEAAAAJ
+        - name: GitHub
+          url: https://github.com/helloerikaaa
+
+    assets:
+        disableHLJS: true
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Erika Sánchez-Femat"
+      icon:
+      iconHeight:
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2
