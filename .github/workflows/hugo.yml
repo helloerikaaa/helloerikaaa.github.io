@@ -60,6 +60,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./public
+          publish_dir: ./public
 
   # Deployment job
   deploy:

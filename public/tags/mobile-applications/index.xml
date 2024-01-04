@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>mobile applications on Erika Sánchez-Femat</title>
+    <link>https://helloerikaaa.github.io/tags/mobile-applications/</link>
+    <description>Recent content in mobile applications on Erika Sánchez-Femat</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 09 Oct 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://helloerikaaa.github.io/tags/mobile-applications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mobile Application for Automatic Counting of Bacterial Colonies</title>
+      <link>https://helloerikaaa.github.io/1/</link>
+      <pubDate>Sun, 09 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://helloerikaaa.github.io/1/</guid>
+      <description>In the following article it is proposed the design and implementation of a mobile application using a computer vision system that allows to count colonies in microbial cultures, decreasing significantly the time of quantification and generating a standard counting method for mobile devices running Android OS.</description>
+    </item>
+    
+  </channel>
+</rss>

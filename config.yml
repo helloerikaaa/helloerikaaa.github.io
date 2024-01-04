@@ -5,6 +5,9 @@ theme: PaperMod
 enableInlineShortcodes: true
 enableRobotsTXT: true
 
+# Add the publishDir setting
+publishDir: "./public"
+
 taxonomies:
     tag: tags
 
@@ -59,20 +62,12 @@ params:
               url: /projects/
             - name: Papers
               url: /papers/
-            - name: Tags
-              url: /tags/
-            - name: Archive
-              url: /archive/
 
     socialIcons:
         - name: CV
           url: /cv.pdf
         - name: Email
           url: mailto:epsanchezf@ipn.mx
-        - name: Location
-          url: /location/
-        - name: Office Hours
-          url: /officehours/
         - name: Google Scholar
           url: https://scholar.google.com/citations?hl=es&user=aBmYpHEAAAAJ
         - name: GitHub
