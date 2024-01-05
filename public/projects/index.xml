@@ -16,41 +16,5 @@
       <description>This template produces a research presentation with LaTeX and Beamer. The slides have a minimalist design and are customized for academics and scientists.</description>
     </item>
     
-    <item>
-      <title>LaTeX Commands to Write Math</title>
-      <link>https://helloerikaaa.github.io/d3/</link>
-      <pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://helloerikaaa.github.io/d3/</guid>
-      <description>This collection of commands makes it easy to write mathematical expressions with LaTeX.</description>
-    </item>
-    
-    <item>
-      <title>Minimalist Hugo Template for Academic Websites</title>
-      <link>https://helloerikaaa.github.io/d5/</link>
-      <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://helloerikaaa.github.io/d5/</guid>
-      <description>This template produces a personal website with Hugo. The website has a minimalist design and is customized for academics, scientists, and researchers.</description>
-    </item>
-    
-    <item>
-      <title>MATLAB Script to Produce Scientific Figures</title>
-      <link>https://helloerikaaa.github.io/d4/</link>
-      <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://helloerikaaa.github.io/d4/</guid>
-      <description>This script produces scientific figures with MATLAB. The figures follow Tufte&amp;#39;s guidelines and are customized for academics and other researchers.</description>
-    </item>
-    
-    <item>
-      <title>Minimalist LaTeX Template for Academic Papers</title>
-      <link>https://helloerikaaa.github.io/d2/</link>
-      <pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://helloerikaaa.github.io/d2/</guid>
-      <description>This template produces a research paper with LaTeX. The paper has a minimalist design and is customized for academics and scientists.</description>
-    </item>
-    
   </channel>
 </rss>

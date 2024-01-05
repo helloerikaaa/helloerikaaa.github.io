@@ -6,16 +6,7 @@
     <description>Recent content on Erika Sánchez-Femat</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 08 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://helloerikaaa.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Business Cycles and How to Tame Them</title>
-      <link>https://helloerikaaa.github.io/c5/</link>
-      <pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://helloerikaaa.github.io/c5/</guid>
-      <description>This minicourse describes business cycles, develops a matching model to explain them, and discusses how monetary and fiscal policy can tame them.</description>
-    </item>
-    
+    <lastBuildDate>Sat, 18 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://helloerikaaa.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Minimalist LaTeX Template for Academic Presentations</title>
       <link>https://helloerikaaa.github.io/d1/</link>
@@ -26,66 +17,12 @@
     </item>
     
     <item>
-      <title>LaTeX Commands to Write Math</title>
-      <link>https://helloerikaaa.github.io/d3/</link>
-      <pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://helloerikaaa.github.io/d3/</guid>
-      <description>This collection of commands makes it easy to write mathematical expressions with LaTeX.</description>
-    </item>
-    
-    <item>
-      <title>Minimalist Hugo Template for Academic Websites</title>
-      <link>https://helloerikaaa.github.io/d5/</link>
-      <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://helloerikaaa.github.io/d5/</guid>
-      <description>This template produces a personal website with Hugo. The website has a minimalist design and is customized for academics, scientists, and researchers.</description>
-    </item>
-    
-    <item>
-      <title>MATLAB Script to Produce Scientific Figures</title>
-      <link>https://helloerikaaa.github.io/d4/</link>
-      <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://helloerikaaa.github.io/d4/</guid>
-      <description>This script produces scientific figures with MATLAB. The figures follow Tufte&amp;#39;s guidelines and are customized for academics and other researchers.</description>
-    </item>
-    
-    <item>
-      <title>Minimalist LaTeX Template for Academic Papers</title>
-      <link>https://helloerikaaa.github.io/d2/</link>
-      <pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://helloerikaaa.github.io/d2/</guid>
-      <description>This template produces a research paper with LaTeX. The paper has a minimalist design and is customized for academics and scientists.</description>
-    </item>
-    
-    <item>
-      <title>Economic Slack</title>
-      <link>https://helloerikaaa.github.io/c2/</link>
-      <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://helloerikaaa.github.io/c2/</guid>
-      <description>This graduate course presents matching models of economic slack and uses them to study business-cycle fluctuations, monetary policy, and fiscal policy.</description>
-    </item>
-    
-    <item>
-      <title>Unemployment</title>
+      <title>Algorithm Analysis and Design</title>
       <link>https://helloerikaaa.github.io/c1/</link>
-      <pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 28 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>https://helloerikaaa.github.io/c1/</guid>
-      <description>This course presents matching models of unemployment and uses them to study unemployment fluctuations, job rationing, and labor market policies.</description>
-    </item>
-    
-    <item>
-      <title>Intermediate Macroeconomics</title>
-      <link>https://helloerikaaa.github.io/c4/</link>
-      <pubDate>Sat, 15 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://helloerikaaa.github.io/c4/</guid>
-      <description>This undergraduate course covers IS-LM model of business cycles, matching model of unemployment, inflation, and Malthusian and Solowian models of growth.</description>
+      <description>This course provides a comprehensive exploration of algorithmic efficiency, covering fundamental paradigms, advanced design strategies, and theoretical aspects such as computational complexity.</description>
     </item>
     
     <item>
@@ -104,15 +41,6 @@
       
       <guid>https://helloerikaaa.github.io/1/</guid>
       <description>In the following article it is proposed the design and implementation of a mobile application using a computer vision system that allows to count colonies in microbial cultures, decreasing significantly the time of quantification and generating a standard counting method for mobile devices running Android OS.</description>
-    </item>
-    
-    <item>
-      <title>Mathematics for Macroeconomics</title>
-      <link>https://helloerikaaa.github.io/c3/</link>
-      <pubDate>Tue, 01 Oct 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://helloerikaaa.github.io/c3/</guid>
-      <description>This graduate course covers basic mathematical methods for macroeconomics: dynamic programming, optimal control, and differential equations.</description>
     </item>
     
   </channel>
