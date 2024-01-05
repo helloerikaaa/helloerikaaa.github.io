@@ -6,7 +6,16 @@
     <description>Recent content in microbiology on Erika Sánchez-Femat</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 09 Oct 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://helloerikaaa.github.io/tags/microbiology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Dec 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://helloerikaaa.github.io/tags/microbiology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simulation and Counting of Colony-Forming Units</title>
+      <link>https://helloerikaaa.github.io/2/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://helloerikaaa.github.io/2/</guid>
+      <description>This article proposes the design and implementation of a mobile application using a computer vision system that allows counting bacterial colonies in microbial cultures, decreasing significantly the time of quantification and generating a standard counting method for mobile devices running Android OS. As well as a bacterial colony simulator that allows generating samples controlling bacterial growth parameters in order to help to test the efficiency of the bacterial colony count.</description>
+    </item>
+    
     <item>
       <title>Mobile Application for Automatic Counting of Bacterial Colonies</title>
       <link>https://helloerikaaa.github.io/1/</link>

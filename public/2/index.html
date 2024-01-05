@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Simulation and Counting of Colony-Forming Units | Erika Sánchez-Femat</title>
+<meta name="keywords" content="pattern recognition, image processing, simulation, microbiology">
+<meta name="description" content="This article proposes the design and implementation of a mobile application using a computer vision system that allows counting bacterial colonies in microbial cultures, decreasing significantly the time of quantification and generating a standard counting method for mobile devices running Android OS. As well as a bacterial colony simulator that allows generating samples controlling bacterial growth parameters in order to help to test the efficiency of the bacterial colony count.">
+<meta name="author" content="Erika Sánchez-Femat">
+<link rel="canonical" href="https://helloerikaaa.github.io/2/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.d96bf6f7039c017b712abdea12d1cc90d3a8f5b9560a94d6179d6a1254c998fa.css" integrity="sha256-2Wv29wOcAXtxKr3qEtHMkNOo9blWCpTWF51qElTJmPo=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://helloerikaaa.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://helloerikaaa.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://helloerikaaa.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://helloerikaaa.github.io/apple-touch-icon.png">
+
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Simulation and Counting of Colony-Forming Units" />
+<meta property="og:description" content="This article proposes the design and implementation of a mobile application using a computer vision system that allows counting bacterial colonies in microbial cultures, decreasing significantly the time of quantification and generating a standard counting method for mobile devices running Android OS. As well as a bacterial colony simulator that allows generating samples controlling bacterial growth parameters in order to help to test the efficiency of the bacterial colony count." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://helloerikaaa.github.io/2/" />
+<meta property="og:image" content="https://helloerikaaa.github.io/2.png" /><meta property="article:section" content="papers" />
+<meta property="article:published_time" content="2017-12-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2017-12-01T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://helloerikaaa.github.io/2.png" />
+<meta name="twitter:title" content="Simulation and Counting of Colony-Forming Units"/>
+<meta name="twitter:description" content="This article proposes the design and implementation of a mobile application using a computer vision system that allows counting bacterial colonies in microbial cultures, decreasing significantly the time of quantification and generating a standard counting method for mobile devices running Android OS. As well as a bacterial colony simulator that allows generating samples controlling bacterial growth parameters in order to help to test the efficiency of the bacterial colony count."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Papers",
+      "item": "https://helloerikaaa.github.io/papers/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Simulation and Counting of Colony-Forming Units",
+      "item": "https://helloerikaaa.github.io/2/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Simulation and Counting of Colony-Forming Units",
+  "name": "Simulation and Counting of Colony-Forming Units",
+  "description": "This article proposes the design and implementation of a mobile application using a computer vision system that allows counting bacterial colonies in microbial cultures, decreasing significantly the time of quantification and generating a standard counting method for mobile devices running Android OS. As well as a bacterial colony simulator that allows generating samples controlling bacterial growth parameters in order to help to test the efficiency of the bacterial colony count.",
+  "keywords": [
+    "pattern recognition", "image processing", "simulation", "microbiology"
+  ],
+  "articleBody": "View Paper Online appendix Abstract This article proposes the design and implementation of a mobile application using a computer vision system that allows counting bacterial colonies in microbial cultures, decreasing significantly the time of quantification and generating a standard counting method for mobile devices running Android OS. As well as a bacterial colony simulator that allows generating samples controlling bacterial growth parameters in order to help to test the efficiency of the bacterial colony count.\nCitation Sánchez F., E. P., Núñez R., D., Cruz L., R. O., Torres H., M. A., \u0026 Herrera M., E. V. (2017). Simulación y Conteo de Unidades Formadoras de Colonias - Simulation and Counting of Colony-Forming Units. ReCIBE, Revista electrónica De Computación, Informática, Biomédica Y Electrónica, 6(1), 97–111. https://doi.org/10.32870/recibe.v6i1.70 @article{Sánchez_F._Núñez_R._Cruz_L._Torres_H._Herrera_M._2017, title={Simulación y Conteo de Unidades Formadoras de Colonias - Simulation and Counting of Colony-Forming Units}, volume={6}, url={http://recibe.cucei.udg.mx/index.php/ReCIBE/article/view/70}, DOI={10.32870/recibe.v6i1.70}, number={1}, journal={ReCIBE, Revista electrónica de Computación, Informática, Biomédica y Electrónica}, author={Sánchez F., Erika P. and Núñez R., Dámaris and Cruz L., Roberto O. and Torres H., Mayra A. and Herrera M., Elsa V.}, year={2017} } Related material Mobile application for automatic counting and preliminary identification of bacterial colonies through pattern recognition. - My Bachelor dissertation at Instituto Politécnico Nacional is the basis of this paper. ",
+  "wordCount" : "208",
+  "inLanguage": "en",
+  "image":"https://helloerikaaa.github.io/2.png","datePublished": "2017-12-01T00:00:00Z",
+  "dateModified": "2017-12-01T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Erika Sánchez-Femat"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://helloerikaaa.github.io/2/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Erika Sánchez-Femat",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://helloerikaaa.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+            {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+            {left: "\\begin{align}", right: "\\end{align}", display: true},
+            {left: "\\begin{align*}", right: "\\end{align*}", display: true},
+            {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+            {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+            {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+          ],
+          
+          throwOnError : false
+        });
+    });
+</script>
+ 
+
+
+</head>
+
+<body class="" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://helloerikaaa.github.io/" accesskey="h" title="Erika Sánchez-Femat">
+             Erika Sánchez-Femat</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://helloerikaaa.github.io/courses/" title="Courses">
+                    <span>Courses</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://helloerikaaa.github.io/projects/" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://helloerikaaa.github.io/papers/" title="Papers">
+                    <span>Papers</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      Simulation and Counting of Colony-Forming Units
+    </h1>
+    <div class="post-meta">&lt;span title=&#39;2017-12-01 00:00:00 &#43;0000 UTC&#39;&gt;December 2017&lt;/span&gt;&amp;nbsp;&amp;middot;&amp;nbsp;Erika Sánchez-Femat&nbsp;&middot;&nbsp;<a href="https://doi.org/10.32870/recibe.v6i1.70" rel="noopener noreferrer" target="_blank">ReCIBE, Revista electrónica de Computación, Informática, Biomédica y Electrónica</a>
+
+</div>
+  </header> 
+  <div class="post-content"><h5 id="view">View</h5>
+<ul>
+<li><a href="/2.pdf">Paper</a>
+</li>
+<li><a href="http://recibe.cucei.udg.mx/index.php/ReCIBE/article/view/70" target="_blank">Online appendix</a>
+</li>
+</ul>
+<hr>
+<h5 id="abstract">Abstract</h5>
+<p>This article proposes the design and implementation of a mobile application using a computer vision system that allows counting bacterial colonies in microbial cultures, decreasing significantly the time of quantification and generating a standard counting method for mobile devices running Android OS. As well as a bacterial colony simulator that allows generating samples controlling bacterial growth parameters in order to help to test the efficiency of the bacterial colony count.</p>
+<hr>
+<h5 id="citation">Citation</h5>
+<p>Sánchez F., E. P., Núñez R., D., Cruz L., R. O., Torres H., M. A., &amp; Herrera M., E. V. (2017). Simulación y Conteo de Unidades Formadoras de Colonias - Simulation and Counting of Colony-Forming Units. ReCIBE, Revista electrónica De Computación, Informática, Biomédica Y Electrónica, 6(1), 97–111. <a href="https://doi.org/10.32870/recibe.v6i1.70" target="_blank">https://doi.org/10.32870/recibe.v6i1.70</a>
+</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-BibTeX" data-lang="BibTeX"><span style="display:flex;"><span><span style="color:#0a0;text-decoration:underline">@article</span>{Sánchez_F._Núñez_R._Cruz_L._Torres_H._Herrera_M._2017, 
+</span></span><span style="display:flex;"><span>    <span style="color:#1e90ff">title</span>=<span style="color:#a50">{Simulación y Conteo de Unidades Formadoras de Colonias - Simulation and Counting of Colony-Forming Units}</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#1e90ff">volume</span>=<span style="color:#a50">{6}</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#1e90ff">url</span>=<span style="color:#a50">{http://recibe.cucei.udg.mx/index.php/ReCIBE/article/view/70}</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#1e90ff">DOI</span>=<span style="color:#a50">{10.32870/recibe.v6i1.70}</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#1e90ff">number</span>=<span style="color:#a50">{1}</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#1e90ff">journal</span>=<span style="color:#a50">{ReCIBE, Revista electrónica de Computación, Informática, Biomédica y Electrónica}</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#1e90ff">author</span>=<span style="color:#a50">{Sánchez F., Erika P. and Núñez R., Dámaris and Cruz L., Roberto O. and Torres H., Mayra A. and Herrera M., Elsa V.}</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#1e90ff">year</span>=<span style="color:#a50">{2017}</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><hr>
+<h5 id="related-material">Related material</h5>
+<ul>
+<li><a href="https://tesis.ipn.mx/jspui/bitstream/123456789/25731/3/Sanchez%20Femat.pdf" target="_blank">Mobile application for automatic counting and preliminary identification of bacterial colonies through pattern recognition.</a>
+ - My Bachelor dissertation at Instituto Politécnico Nacional is the basis of this paper.</li>
+</ul>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://helloerikaaa.github.io/tags/pattern-recognition/">pattern recognition</a></li>
+      <li><a href="https://helloerikaaa.github.io/tags/image-processing/">image processing</a></li>
+      <li><a href="https://helloerikaaa.github.io/tags/simulation/">simulation</a></li>
+      <li><a href="https://helloerikaaa.github.io/tags/microbiology/">microbiology</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+</html>
