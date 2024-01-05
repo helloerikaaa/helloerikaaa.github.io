@@ -5,7 +5,6 @@ theme: PaperMod
 enableInlineShortcodes: true
 enableRobotsTXT: true
 
-# Add the publishDir setting
 publishDir: "./public"
 
 taxonomies:
@@ -22,6 +21,9 @@ menu:
         - name: Papers
           url: /papers/
           weight: 3
+        - name: Templates
+          url: /templates/
+          weight: 4
         
 
 params:
@@ -62,6 +64,8 @@ params:
               url: /projects/
             - name: Papers
               url: /papers/
+            - name: Templates
+              url: /templates/
 
     socialIcons:
         - name: CV
