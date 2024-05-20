@@ -17,30 +17,30 @@
     </item>
     
     <item>
-      <title>Algorithm Analysis and Design</title>
-      <link>https://helloerikaaa.github.io/c1/</link>
-      <pubDate>Sun, 28 Aug 2022 00:00:00 +0000</pubDate>
+      <title>Agenda</title>
+      <link>https://helloerikaaa.github.io/agenda/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://helloerikaaa.github.io/c1/</guid>
-      <description>This course provides a comprehensive exploration of algorithmic efficiency, covering fundamental paradigms, advanced design strategies, and theoretical aspects such as computational complexity.</description>
+      <guid>https://helloerikaaa.github.io/agenda/</guid>
+      <description>Feel free to schedule an appointment to talk about your projects or ideas!</description>
     </item>
     
     <item>
-      <title>Simulation and Counting of Colony-Forming Units</title>
-      <link>https://helloerikaaa.github.io/2/</link>
-      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <title>Courses</title>
+      <link>https://helloerikaaa.github.io/courses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://helloerikaaa.github.io/2/</guid>
-      <description>This article proposes the design and implementation of a mobile application using a computer vision system that allows counting bacterial colonies in microbial cultures, decreasing significantly the time of quantification and generating a standard counting method for mobile devices running Android OS. As well as a bacterial colony simulator that allows generating samples controlling bacterial growth parameters in order to help to test the efficiency of the bacterial colony count.</description>
+      <guid>https://helloerikaaa.github.io/courses/</guid>
+      <description>Undergrade Courses 2024 Aug - Dec Image Analysis Data Mining Distributed Computing Algorithm Design Jan - July Artificial Intelligence Machine Learning Statistical Analysis Operating Systems 2023 Aug - Dec Algorithm Design Workshops 2023 Introduction to Python Introduction to Computer Vision </description>
     </item>
     
     <item>
-      <title>Mobile Application for Automatic Counting of Bacterial Colonies</title>
-      <link>https://helloerikaaa.github.io/1/</link>
-      <pubDate>Sun, 09 Oct 2016 00:00:00 +0000</pubDate>
+      <title>Projects</title>
+      <link>https://helloerikaaa.github.io/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://helloerikaaa.github.io/1/</guid>
-      <description>In the following article it is proposed the design and implementation of a mobile application using a computer vision system that allows to count colonies in microbial cultures, decreasing significantly the time of quantification and generating a standard counting method for mobile devices running Android OS.</description>
+      <guid>https://helloerikaaa.github.io/projects/</guid>
+      <description>Active Projects Prediction of Cardiovascular Disease Progression Using Explainable Deep Learning Models Automatic Detection of Cardiac Anomalies in Magnetic Resonance Images Real-Time Detection of Exoplanets using Data Science and Machine Learning Techniques Generation of Person Portraits with Conditional GANs Graph-Based Neural Networks for Social Network Analysis Automation and Pipeline Generation for Artificial Intelligence Projects Summarization of Scientific Articles using LLMs Classification of Galaxies using Graph-Based Neural Networks Software for CNC Code Generation for Plasma Cutting in Metals Prototype System for Performing Statistical Data Analysis Finished Projects Computer Vision System for the Detection and Comparison of Human Faces in Identifications and Self-Portrait Photographs Computer Vision System for Relating Credit Fraud and Facial Expressions using Deep Learning Techniques Contact If you are interested in working on these reasearch areas, feel free to contact me or schedule an appointment </description>
     </item>
     
   </channel>

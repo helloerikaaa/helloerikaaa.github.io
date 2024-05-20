@@ -18,16 +18,15 @@ menu:
         - name: Projects
           url: /projects/
           weight: 2
-        - name: Papers
-          url: /papers/
-          weight: 3
         - name: Templates
           url: /templates/
+          weight: 3
+        - name: Agenda
+          url: /agenda/
           weight: 4
-        
 
 params:
-    description: "I am a Machine Learning Researcher and Associate Professor at Instituto Politécnico Nacional in Mexico. My research covers Computer Vision, Natural Language Processing and Computational Statistics."
+    description: "I am a Researcher and Associate Professor at Instituto Politécnico Nacional. My research covers Astroinformatics, Computer Vision, Natural Language Processing and Computational Statistics."
     author: Erika Sánchez-Femat
     googleAnalyticsID: 
     DateFormat: "January 2006"
@@ -52,7 +51,7 @@ params:
     profileMode:
           enabled: true
           title: Erika Sánchez-Femat
-          subtitle: "I am a Machine Learning Researcher and Associate Professor at Instituto Politécnico Nacional in Mexico. My research covers Computer Vision, Natural Language Processing and Computational Statistics."
+          subtitle: "I am a Researcher and Associate Professor at Instituto Politécnico Nacional. My research covers Astroinformatics, Computer Vision, Natural Language Processing and Computational Statistics."
           imageUrl: "/profile.JPG"
           imageWidth: 160
           imageHeight: 160
@@ -62,10 +61,10 @@ params:
               url: /courses/
             - name: Projects
               url: /projects/
-            - name: Papers
-              url: /papers/
             - name: Templates
               url: /templates/
+            - name: Agenda
+              url: /agenda/
 
     socialIcons:
         - name: CV
