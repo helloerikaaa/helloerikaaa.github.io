@@ -2,7 +2,7 @@
 title: "Courses"
 ---
 
-## Undergrade Courses
+## Undergraduate Courses
 
 ### 2024
 
@@ -13,9 +13,9 @@ title: "Courses"
 - Algorithm Design
 
 #### Jan - July
-- Artificial Intelligence
-- Machine Learning
-- Statistical Analysis
+- Artificial Intelligence: [Code](https://github.com/helloerikaaa/ArtificialIntelligence2024)
+- Machine Learning: [Code](https://github.com/helloerikaaa/MachineLearning2024)
+- Statistical Analysis: [Code](https://github.com/helloerikaaa/StatisticalTools2024)
 - Operating Systems
 
 ### 2023
@@ -29,6 +29,8 @@ title: "Courses"
 
 ## Workshops
 
+### 2024
+- Introduction to GANs
+
 ### 2023
-- Introduction to Python
-- Introduction to Computer Vision
+- Introduction to Computer Vision: [Slides](https://drive.google.com/file/d/1S8MlIq81bC7HKpskBs-TnHOKl69YhLAa/view) | [Code](https://github.com/helloerikaaa/IntroAI)
