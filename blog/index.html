@@ -1,0 +1,26 @@
+---
+layout: page
+title: Blog
+subtitle: Notes, tutorials and half-finished thoughts.
+---
+<div class="form-group grep">
+  <label for="grep-input">grep:</label>
+  <input id="grep-input" type="search" placeholder="filter by title or #tag…" autocomplete="off">
+</div>
+
+{% assign by_year = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+{% for year in by_year %}
+  <section class="year-group" data-year="{{ year.name }}">
+    <h2 class="year">{{ year.name }}</h2>
+    <ul class="post-list filterable">
+      {% for post in year.items %}
+        <li data-search="{{ post.title | downcase | escape }} {% for t in post.tags %}#{{ t | downcase }} {% endfor %}">
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d" }}</time>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <span class="tags">{% for t in post.tags %}<span class="tag">#{{ t }}</span>{% endfor %}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+{% endfor %}
+<p class="no-results" hidden>grep: no matches found</p>

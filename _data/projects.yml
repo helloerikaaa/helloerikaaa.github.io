@@ -1,0 +1,13 @@
+- name: fastrad
+  year: 2026
+  description: GPU-accelerated Python library for calculating radiomics features from medical images
+  tags: [python, image-processing, medical-imaging]
+  repo: https://github.com/radiomicslab/fastrad
+  paper: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6436486
+
+- name: cbis-ddsm-r
+  year: 2025
+  description: A Curated Radiomic Feature Dataset for Breast Cancer Classification
+  tags: [dataset, medical-imaging, breast-cancer]
+  repo: https://github.com/radiomicslab/cbis-ddsm-r
+  paper: https://www.mdpi.com/2306-5729/10/11/179

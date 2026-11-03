@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-11-03T13:57:01-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Erika Sánchez-Femat</title><subtitle>Software engineer · Data &amp; ML · Teacher. I write about code, statistics and the things I build on weekends.</subtitle><author><name>Erika Sánchez-Femat</name><email>erika.sanchez.femat@uaz.edu.mx</email></author><entry><title type="html">hello, world</title><link href="http://localhost:4000/blog/2026/09/hello-world/" rel="alternate" type="text/html" title="hello, world" /><published>2026-09-02T00:00:00-06:00</published><updated>2026-09-02T00:00:00-06:00</updated><id>http://localhost:4000/blog/2026/09/hello-world</id><content type="html" xml:base="http://localhost:4000/blog/2026/09/hello-world/"><![CDATA[<p>New site, who dis. This blog is built with <a href="https://jekyllrb.com">Jekyll</a>
+and styled with <a href="https://terminalcss.xyz">terminal.css</a>, hosted for free on
+GitHub Pages.</p>
+
+<!--more-->
+
+<h2 id="writing-a-post">Writing a post</h2>
+
+<p>Create a file in <code class="language-plaintext highlighter-rouge">_posts/</code> named <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-some-title.md</code>:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">My</span><span class="nv"> </span><span class="s">new</span><span class="nv"> </span><span class="s">post"</span>
+<span class="na">tags</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">notes</span><span class="pi">]</span>
+<span class="nn">---</span>
+
+Write in <span class="gs">**Markdown**</span>. That's it.
+</code></pre></div></div>
+
+<p>Push to <code class="language-plaintext highlighter-rouge">main</code> and GitHub Pages rebuilds the site in about a minute.</p>
+
+<h2 id="things-terminalcss-gives-you-for-free">Things terminal.css gives you for free</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>element</th>
+      <th>looks like</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>tables</td>
+      <td>this one</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">code</code></td>
+      <td>inline monospace</td>
+    </tr>
+    <tr>
+      <td>buttons</td>
+      <td><button class="btn btn-primary btn-sm">ok</button></td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="terminal-alert terminal-alert-primary">Alerts work too.</div>]]></content><author><name>Erika Sánchez-Femat</name><email>erika.sanchez.femat@uaz.edu.mx</email></author><category term="meta" /><category term="jekyll" /><summary type="html"><![CDATA[New site, who dis. This blog is built with Jekyll and styled with terminal.css, hosted for free on GitHub Pages.]]></summary></entry></feed>

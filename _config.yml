@@ -1,0 +1,96 @@
+title: Erika Sánchez-Femat
+handle: Erika Sánchez-Femat
+tagline: "Artificial Intelligence Researcher"
+description: >-
+  Software engineer · Data & ML · Teacher. I write about code,
+  statistics and the things I build on weekends.
+lang: en
+
+url: "https://helloerikaaa.github.io"
+baseurl: ""
+
+author:
+  name: Erika Sánchez-Femat
+  email: erika.sanchez.femat@uaz.edu.mx
+
+avatar: /assets/images/profile.jpg
+
+bio: |
+  My main interest is imaging science: extracting reliable information from noisy, imperfect, or incomplete images, through image processing, noise modeling, and quantitative image analysis. My current research focuses on image processing pipelines and multimodal models to classify possible breast cancer cases from incomplete studies, combining X-ray images, BI-RADS reports, and radiomics features. I also work on related problems in astronomical imaging, and I’m interested in methods that transfer across domains such as astronomy, biology, and medicine.
+facts:
+  - label: role
+    value: PhD Student @ Universidad Autónoma de Zacatecas
+  - label: focus
+    value: Image processing | Bioimage informatics | Computer vision
+  - label: based in
+    value: Zacatecas, México
+
+showoff:
+  - name: fastrad
+    description: GPU-accelerated Python library for calculating radiomics features from medical images
+    paper: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6436486
+    repo: https://github.com/radiomicslab/fastrad
+  - name: CBIS-DDSM-R
+    description: A Curated Radiomic Feature Dataset for Breast Cancer Classification
+    paper: https://www.mdpi.com/2306-5729/10/11/179
+    repo: https://github.com/radiomicslab/cbis-ddsm-r
+
+social:
+  - name: github
+    url: https://github.com/helloerikaaa
+  - name: google scholar
+    url: https://scholar.google.com/citations?user=aBmYpHEAAAAJ
+  - name: email
+    url: mailto:erika.sanchez.femat@uaz.edu.mx
+
+status:
+  available: true
+  text: open to collaborations
+  location: Zacatecas, México
+
+nav:
+  - title: home
+    url: /
+  - title: blog
+    url: /blog/
+  - title: projects
+    url: /projects/
+  - title: talks
+    url: /talks/
+  - title: about
+    url: /about/
+  - title: résumé
+    url: /resume/
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: /blog/:year/:month/:title/
+excerpt_separator: "<!--more-->"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+    values:
+      layout: page
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
+  - node_modules

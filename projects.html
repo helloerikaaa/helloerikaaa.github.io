@@ -1,0 +1,33 @@
+---
+layout: page
+title: Projects
+subtitle: Things I've built, broken and occasionally fixed.
+permalink: /projects/
+---
+{% assign all_tags = "" | split: "" %}
+{% for p in site.data.projects %}{% assign all_tags = all_tags | concat: p.tags %}{% endfor %}
+{% assign all_tags = all_tags | uniq | sort %}
+
+<div class="tag-filter" role="toolbar" aria-label="Filter projects by tag">
+  <button class="btn btn-primary btn-sm" data-filter="*">all</button>
+  {% for t in all_tags %}<button class="btn btn-default btn-ghost btn-sm" data-filter="{{ t }}">{{ t }}</button>{% endfor %}
+</div>
+
+<div class="project-grid">
+  {% for p in site.data.projects %}
+    <article class="terminal-card project" data-tags="{{ p.tags | join: ' ' }}">
+      <header>{{ p.name }}</header>
+      <div>
+        <p>{{ p.description }}</p>
+        <p class="meta">
+          <span>{{ p.year }}</span>
+          {% for t in p.tags %}<span class="tag">#{{ t }}</span>{% endfor %}
+        </p>
+        <p class="links">
+          {% if p.paper %}<a href="{{ p.paper }}" target="_blank" rel="noopener">[paper]</a>{% endif %}
+          {% if p.repo %}<a href="{{ p.repo }}" target="_blank" rel="noopener">[github]</a>{% endif %}
+        </p>
+      </div>
+    </article>
+  {% endfor %}
+</div>

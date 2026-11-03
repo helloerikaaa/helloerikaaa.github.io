@@ -1,0 +1,29 @@
+---
+layout: page
+title: Talks
+subtitle: Conferences, meetups and workshops.
+permalink: /talks/
+---
+{% assign by_year = site.data.talks | group_by: "year" | sort: "name" | reverse %}
+<div class="terminal-timeline">
+  {% for year in by_year %}
+    <div class="terminal-card">
+      <header>{{ year.name }}</header>
+      <div>
+        <ul class="talk-list">
+          {% for t in year.items %}
+            <li>
+              <span class="talk-title">{{ t.title }}</span>
+              <span class="talk-event">@ {{ t.event }}{% if t.location %} · {{ t.location }}{% endif %}</span>
+              <span class="talk-links">
+                {% if t.slides %}<a href="{{ t.slides }}" target="_blank" rel="noopener">[slides]</a>{% endif %}
+                {% if t.video %}<a href="{{ t.video }}" target="_blank" rel="noopener">[video]</a>{% endif %}
+                {% if t.code %}<a href="{{ t.code }}" target="_blank" rel="noopener">[code]</a>{% endif %}
+              </span>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  {% endfor %}
+</div>

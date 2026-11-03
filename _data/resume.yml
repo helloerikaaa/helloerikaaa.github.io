@@ -1,0 +1,59 @@
+experience:
+  - role: Associate Professor & Researcher
+    org: Instituto Politécnico Nacional
+    from: 2023
+    to: 2025
+    bullets:
+      - Research and development of machine learning and deep learning models for computer vision.
+  - role: Senior Data Scientist
+    org: SoFi
+    from: 2022
+    to: 2023
+    bullets:
+      - Development of credit risk models based on statistical methods and principles of fair and explainable AI.
+  - role: Senior Data Scientist
+    org: TrackChain
+    from: 2020
+    to: 2022
+    bullets:
+      - Development of the initial versions of the platform's core algorithm, as well as the data pipelines and data quality processes used across teams.
+  - role: Senior Research Engineer
+    org: Barcelona Supercomputing Center
+    from: 2019
+    to: 2021
+    bullets:
+      - Development of applied deep learning and data science research projects in collaboration with PhD students and researchers, on high-performance computing infrastructure.
+
+stays:
+  - org: Universidad Militar Nueva Granada
+    from: 2025
+    to: 2025
+    location: Bogotá, Colombia
+  - org: Universitat Politècnica de Catalunya (UPC)
+    from: 2019
+    to: 2021
+    location: Barcelona, Spain
+
+education:
+  - degree: PhD. Applied AI
+    school: Universidad Autónoma de Zacatecas
+    from: 2024
+    to: 2027
+  - degree: M.Sc. Applied AI
+    school: INFOTEC
+    from: 2021
+    to: 2022
+  - degree: B.Sc. Computer Science Engineering
+    school: Instituto Politécnico Nacional
+    from: 2012
+    to: 2017
+
+skills:
+  - area: languages
+    items: [Python, R, Bash, SQL]
+  - area: data
+    items: [Pandas, Numpy, Spark, Airflow, Postgres]
+  - area: ml
+    items: [scikit-learn, PyTorch, MLflow]
+  - area: ops
+    items: [Docker, GitHub Actions, AWS, GCP]

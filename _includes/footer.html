@@ -1,0 +1,11 @@
+<footer class="site-footer">
+  <div class="status-bar" role="contentinfo">
+    <span class="seg">
+      <span class="dot {% if site.status.available %}on{% else %}off{% endif %}" aria-hidden="true">●</span>
+      <b>STATUS</b> {{ site.status.text }}
+    </span>
+    <span class="seg"><b>LOC</b> {{ site.status.location }}</span>
+    <span class="seg"><b>NAV</b> <kbd>1</kbd>–<kbd>{{ site.nav.size }}</kbd> to navigate · <kbd>t</kbd> theme</span>
+    <span class="seg"><b>YEAR</b> © {{ site.time | date: "%Y" }}</span>
+  </div>
+  </footer>
